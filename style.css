@@ -13,13 +13,13 @@ p {
 }
 
 .task-one p::before {
-    content: 'Once upon a time';
+    content: 'Once upon a time ...';
     background-color: blueviolet;
     position: absolute;
 }
 
 .task-one p::after {
-    content: 'The End';
+    content: '...The End';
     background-color: blueviolet;
     position: absolute;
 }
