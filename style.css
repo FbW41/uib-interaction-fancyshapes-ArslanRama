@@ -5,4 +5,36 @@ html, body {
 
 section {
     margin-top: 10px;
+    position: relative;;
+}
+
+p {
+    background-color: turquoise;
+}
+
+.task-one::before {
+    content: 'Once upon a time';
+    background-color: blueviolet;
+    position: absolute;
+}
+
+.task-one::after {
+    content: 'The End';
+    background-color: blueviolet;
+    position: absolute;
+}
+
+.task-two img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.task-three img {
+    position: absolute;
+    top: 200px;
+    transform: rotate(180deg);
+    width: 200px;
+    height: 200px;
 }
