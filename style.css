@@ -12,13 +12,13 @@ p {
     background-color: turquoise;
 }
 
-.task-one::before {
+.task-one p::before {
     content: 'Once upon a time';
     background-color: blueviolet;
     position: absolute;
 }
 
-.task-one::after {
+.task-one p::after {
     content: 'The End';
     background-color: blueviolet;
     position: absolute;
